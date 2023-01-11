@@ -1,12 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Lumen\SAP;
 
+
+use Lumen\SAP\Parameters\Parameters;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Lumen\SAP\Commands\SAPCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class SAPServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +18,14 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('sap')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_sap_table')
+            ->hasCommand(SAPCommand::class);
+
+        $this->app->scoped(Parameters::class, function($app) {
+            return new Parameters();
+        });
     }
 }
