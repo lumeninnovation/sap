@@ -1,5 +1,5 @@
 <?php
-namespace Lumen\SAP\Parameters;
+namespace LumenInnovation\SAP\Parameters;
 
 class Parameters
 {

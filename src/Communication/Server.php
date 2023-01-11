@@ -1,5 +1,5 @@
 <?php
-namespace Lumen\SAP\Communication;
+namespace LumenInnovation\SAP\Communication;
 
 use Exception;
 

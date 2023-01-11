@@ -1,16 +1,16 @@
 <?php
 
-namespace Lumen\SAP\Facades;
+namespace LumenInnovation\SAP\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Lumen\SAP\SAP
+ * @see \LumenInnovation\SAP\SAP
  */
 class SAP extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Lumen\SAP\SAP::class;
+        return \LumenInnovation\SAP\SAP::class;
     }
 }

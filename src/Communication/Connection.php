@@ -1,8 +1,8 @@
 <?php
 
-namespace Lumen\SAP\Communication;
+namespace LumenInnovation\SAP\Communication;
 
-use Lumen\SAP\FunctionModule;
+use LumenInnovation\SAP\FunctionModule;
 
 class Connection
 {

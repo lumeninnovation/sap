@@ -1,6 +1,6 @@
 <?php
 
-namespace Lumen\SAP\Illuminate\Orders;
+namespace LumenInnovation\SAP\Illuminate\Orders;
 
 class SapOperation
 {

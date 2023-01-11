@@ -1,8 +1,8 @@
 <?php
 
-namespace Lumen\SAP\Illuminate\Orders\Traits;
+namespace LumenInnovation\SAP\Illuminate\Orders\Traits;
 
-use Lumen\SAP\Facades\SAP;
+use LumenInnovation\SAP\Facades\SAP;
 
 trait InterfacesWithSap
 {

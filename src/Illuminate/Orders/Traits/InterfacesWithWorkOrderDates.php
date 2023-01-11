@@ -1,5 +1,5 @@
 <?php
-namespace Lumen\SAP\Illuminate\Orders\Traits;
+namespace LumenInnovation\SAP\Illuminate\Orders\Traits;
 use Carbon\Carbon;
 
 trait InterfacesWithWorkOrderDates

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lumen\SAP\Commands;
+namespace LumenInnovation\SAP\Commands;
 
 use Illuminate\Console\Command;
 

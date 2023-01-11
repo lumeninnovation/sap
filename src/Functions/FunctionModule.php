@@ -1,10 +1,10 @@
 <?php
 
-namespace Lumen\SAP\Functions;
+namespace LumenInnovation\SAP\Functions;
 
 use Exception;
 use FunctionCallException;
-use Lumen\SAP\Communication\Connection;
+use LumenInnovation\SAP\Communication\Connection;
 use RuntimeException;
 
 class FunctionModule

@@ -1,12 +1,12 @@
 <?php
 
-namespace Lumen\SAP;
+namespace LumenInnovation\SAP;
 
 
-use Lumen\SAP\Parameters\Parameters;
+use LumenInnovation\SAP\Parameters\Parameters;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lumen\SAP\Commands\SAPCommand;
+use LumenInnovation\SAP\Commands\SAPCommand;
 
 class SAPServiceProvider extends PackageServiceProvider
 {

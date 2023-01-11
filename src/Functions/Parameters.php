@@ -1,6 +1,6 @@
 <?php
 
-namespace Lumen\SAP\Functions;
+namespace LumenInnovation\SAP\Functions;
 
 trait Parameters
 {

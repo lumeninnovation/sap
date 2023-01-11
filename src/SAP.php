@@ -1,12 +1,12 @@
 <?php
 
-namespace Lumen\SAP;
+namespace LumenInnovation\SAP;
 
 use FunctionCallException;
-use Lumen\SAP\Communication\Connection;
-use Lumen\SAP\Communication\Server;
-use Lumen\SAP\Functions\FunctionModule;
-use Lumen\SAP\Illuminate\Orders\SapOrder;
+use LumenInnovation\SAP\Communication\Connection;
+use LumenInnovation\SAP\Communication\Server;
+use LumenInnovation\SAP\Functions\FunctionModule;
+use LumenInnovation\SAP\Illuminate\Orders\SapOrder;
 
 class SAP
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lumen\SAP\Illuminate\Response;
+namespace LumenInnovation\SAP\Illuminate\Response;
 
 class SapResponse
 {
